@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.app.login">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_gravity="center_vertical">
+
+
+            <EditText
+                android:id="@+id/edittextEmail"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:fontFamily="serif"
+                android:hint="Email"
+                android:textColorHint="#ff6659"
+                android:textSize="20sp"
+
+
+
+
+                />
+
+
+            <EditText
+                android:id="@+id/edittextPassword"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColorHint="#ff6659"
+                android:textSize="20sp"
+
+                />
+
+
+            <Button
+                android:id="@+id/buttonLogin"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:text="Login"
+                android:background="@drawable/buttonshape"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textColor="#FFFF"
+                android:textSize="20sp"
+                android:layout_gravity="center|bottom"
+                android:textAllCaps="false"
+                android:onClick="onClick"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="serif"
+                android:text="OR"
+                android:textColor="#9a0007"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonReg"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="new account"
+                android:background="@drawable/buttonshape"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:fontFamily="serif"
+                android:textColor="#FFFF"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:onClick="onClick"/>
+
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

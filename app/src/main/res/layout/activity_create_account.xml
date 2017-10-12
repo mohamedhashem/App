@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.app.CreateAccount"
+    >
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_gravity="fill_vertical">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:layout_marginTop="30dp"
+                android:text="Enter Your Information"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_gravity="center"/>
+
+
+            <EditText
+                android:id="@+id/editTextFirstName"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:hint="First Name"
+                android:inputType="text"
+                android:layout_marginTop="30dp"
+                android:textColorHint="#ff6659" />
+
+            <EditText
+                android:id="@+id/editTextLastName"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:hint="Last Name"
+                android:inputType="text"
+                android:layout_marginTop="15dp"
+                android:textColorHint="#ff6659"
+
+                />
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:layout_marginTop="30dp"
+                android:text="Gender"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                />
+            <RadioGroup
+                android:id="@+id/RadioGroupGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="60dp">
+
+                <RadioButton
+                    android:id="@+id/radioButtonMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:checked="false"
+                    android:onClick="onClick"
+                    />
+
+                <RadioButton
+                    android:id="@+id/radioButtonFeMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    android:text="Female"
+                    />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/editTextAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:hint="Age"
+                android:inputType="number"
+                android:layout_marginTop="15dp"
+                android:textColorHint="#ff6659" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:ems="10"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:hint="Phone"
+                android:inputType="number"
+                android:textColorHint="#ff6659" />
+
+            <EditText
+                android:id="@+id/editTextAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:ems="10"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:hint="Address"
+
+
+                android:textColorHint="#ff6659" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:hint="Email"
+                android:inputType="text"
+
+                android:textColorHint="#ff6659" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:hint="Password"
+
+                android:inputType="text"
+                android:textColorHint="#ff6659" />
+
+
+
+            <Button
+                android:id="@+id/buttonConfirm"
+                android:layout_width="150dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="50dp"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonshape"
+                android:fontFamily="serif"
+                android:layout_gravity="center"
+                android:onClick="onClick"
+                android:text="Confirm"
+                android:textColor="#FFFF"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    >
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_gravity="fill_vertical">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Join Us "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:paddingTop="70dp"
+
+                android:paddingBottom="5dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="*You Will Be Able To Take Care Of Your Relative Who Use Our Smart Stick."
+                android:textColor="#37474F"
+                android:textSize="16sp"
+                android:paddingTop="30dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:paddingBottom="5dp"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="*We Will Help You To make Account In Few Steps."
+                android:textColor="#37474F"
+                android:textSize="16sp"
+                android:paddingTop="15dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:paddingBottom="5dp"
+
+                />
+
+            <Button
+                android:id="@+id/buttonRegNext"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/buttonshape"
+                android:fontFamily="serif"
+                android:text="next"
+                android:textAllCaps="false"
+                android:textColor="#FFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:onClick="onClick"/>
+        </LinearLayout>
+      </FrameLayout>
+    </ScrollView>

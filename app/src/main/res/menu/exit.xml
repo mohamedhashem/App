@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".login">
+
+    <item
+
+        android:id="@+id/Setting"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Setting"
+        app:showAsAction="always"
+        />
+    <item
+
+        android:id="@+id/Exitapp"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Logout"
+        app:showAsAction="always"
+        />
+
+
+
+</menu>

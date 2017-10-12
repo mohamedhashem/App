@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="22dp"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:fontFamily="serif"
+                android:textSize="16sp"
+                android:textColor="#212121"
+                />
+
+            <TextView
+                android:id="@+id/editfirstname"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#EEEEEE"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:inputType="textPersonName"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textSize="18sp"
+                android:onClick="onClick"/>
+            <TextView
+                android:id="@+id/editlastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#EEEEEE"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:inputType="textPersonName"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textSize="18sp"
+                android:onClick="onClick"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="22dp"
+            android:layout_marginTop="100dp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Email"
+                android:textColor="#212121"
+
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#EEEEEE"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:inputType="textPersonName"
+                android:textColorHint="#212121"
+                android:textColor="#212121"
+                android:textSize="18sp"
+                android:onClick="onClick"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="22dp"
+            android:layout_marginTop="160dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Password"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/editPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#EEEEEE"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:inputType="textPassword"
+                android:textColor="#EEEEEE"
+                android:textColorHint="#212121"
+                android:textSize="18sp"
+                android:onClick="onClick"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="22dp"
+            android:layout_marginTop="220dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="Phone"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/editPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#EEEEEE"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:inputType="phone"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textSize="18sp"
+                android:onClick="onClick"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="22dp"
+            android:layout_marginTop="280dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:fontFamily="serif"
+                android:textSize="16sp"
+                android:textColor="#212121"
+                />
+
+            <TextView
+                android:id="@+id/editAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#EEEEEE"
+                android:elevation="1dp"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:inputType="textPostalAddress"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textSize="18sp"
+                android:onClick="onClick"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="22dp"
+            android:layout_marginTop="340dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:text="Age"
+                android:fontFamily="serif"
+                android:textSize="16sp"
+                android:textColor="#212121"/>
+
+            <TextView
+                android:id="@+id/editAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#EEEEEE"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:inputType="number"
+                android:textColor="#212121"
+                android:textColorHint="#212121"
+                android:textSize="18sp"
+                android:onClick="onClick"/>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>
